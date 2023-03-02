@@ -10,7 +10,6 @@ require("./src/db/database");
 require("./src/models/initModels");
 require("./src/models/users.model");
 
-
 //* routers
 const userRouter = require("./src/users/users.router");
 const authRouter = require("./src/auth/auth.router");

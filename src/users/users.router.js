@@ -12,7 +12,7 @@ require("../middlewares/auth.middleware")(passport);
 router.route("/")
   .get(
     passport.authenticate("jwt", { session: false }),
-    adminValidate,
+    // adminValidate,
     usersServices.getAllUsers
   );
 
