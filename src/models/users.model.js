@@ -34,7 +34,7 @@ const Users = db.define("users", {
     defaultValue: null,
   },
   phone: {
-    type: DataTypes.NUMBER,
+    type: DataTypes.DECIMAL,
     defaultValue: null,
   },
   status: {

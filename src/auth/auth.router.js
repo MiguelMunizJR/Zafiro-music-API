@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { updateUser } = require("../users/users.services");
+const { createUser } = require("../users/users.services");
 const authServices = require("./auth.services");
 
 //TODO Auth va a contener las rutas de autenticacion y autorizacion.
@@ -10,7 +10,7 @@ const authServices = require("./auth.services");
 //? Verify User
 
 //? Ruta de register
-router.post("/register", updateUser);
+router.post("/register", createUser);
 
 //? Ruta de login
 router.post("/login", authServices.login);

@@ -1,4 +1,4 @@
-const { jwtSecret } = require("../utils/config");
+const { jwtSecret } = require("../config");
 const { getUserById } = require("../users/users.controllers");
 
 const JwtStrategy = require("passport-jwt").Strategy;
