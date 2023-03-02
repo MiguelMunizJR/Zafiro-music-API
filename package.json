@@ -1,0 +1,11 @@
+{
+  "name": "jrmusic_api",
+  "version": "1.0.0",
+  "description": "This is a music player with streaming",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon ./app.js"
+  },
+  "author": "Miguel Muñiz",
+  "license": "ISC"
+}
